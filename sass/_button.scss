@@ -1,0 +1,33 @@
+%button
+{
+    height: 40px;
+    border-radius: 15px;
+    padding: 10 40px;
+    font-family: $primary-font;
+    font-size: 25px;
+    text-decoration:  none;
+}
+
+.button-test
+{
+    @extend %button;
+    background-color: white;
+    color: #000000;
+    border: 2px #000000 solid;
+    &:hover 
+    {
+        background-color: $primary-color;
+    }
+}
+
+.button-test2
+{
+    @extend %button;
+    background-color:  #000000;
+    color: #ffffff;
+     &:hover 
+    {
+        background-color: black;
+    }
+    text-align: right;
+}

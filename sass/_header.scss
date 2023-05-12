@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+// 1.variable
+$primary-color: #00af0d;
+$primary-font: 'Montserrat', sans-serif;
+
+
+header
+{
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 120px;
+
+    .logo
+ {
+  font-size: 25px;
+  color: #ffffff;
+ }
+
+ nav 
+ {
+     display: flex;
+     &:hover
+     {
+      color: $primary-color;
+     }
+ }
+ a
+ {
+   text-decoration: none;
+   color: white;
+   padding: 0 20px;
+   &:hover
+   {
+       color: $primary-color;
+   }
+   
+ }
+}

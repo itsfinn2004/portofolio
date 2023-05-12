@@ -1,0 +1,36 @@
+
+.bg-color
+{
+    background-color: rgba(165, 160, 160, 0.967);
+    height: 100vh;
+    width: 100%;
+    clip-path: polygon(0% 0, 62% 0, 95% 100%, 0% 100%);
+    position: relative;
+    z-index: 2;
+}
+
+.bg-img
+{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    background-image: url(/image/HomePage/test.png);
+    background-repeat: no-repeat;
+    background-color: #06f516;
+    background-blend-mode:multiply;
+    background-size: cover;
+    
+    
+    
+}
+
+.intro
+{
+    width: 50%;
+    text-align: left;
+    padding-top: 75px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
