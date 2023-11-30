@@ -86,7 +86,7 @@ header a:hover {
   z-index: 1;
   background-image: url(/image/HomePage/test.png);
   background-repeat: no-repeat;
-  background-color: #06f516;
+  
   background-blend-mode: multiply;
   background-size: cover;
 }
